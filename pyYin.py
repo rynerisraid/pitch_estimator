@@ -116,4 +116,4 @@ class Yin:
       temp = self.get_pitch(x, start)
       freq.append(temp)
 
-    return freq
+    return np.array(freq)
