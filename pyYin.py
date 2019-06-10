@@ -61,7 +61,7 @@ class Yin:
     if tau_estimate+1 < self.buff_size:
       x2 = tau_estimate+1
     else:
-      x2 = tau_estimate
+      x2 = tau_estimate-1
     
     if x0 == tau_estimate:
       if cmdf[tau_estimate] <=cmdf[x2]:
