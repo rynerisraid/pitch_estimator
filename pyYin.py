@@ -100,7 +100,7 @@ class Yin:
       freq = -1
 
     print(index/44100,freq)
-    return freq
+    return np.array(freq)
 
     
   def get_pitch_full(self,x):
