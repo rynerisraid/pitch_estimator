@@ -1,5 +1,5 @@
 # pitch_estimator
-F0 estimation for signal, and it could be used in music and audio signal processing. In singing voice, the F0 is related to musicial pitch, while other formants have bad effects. 
+基频估计基本复现，自相关函数法，Yin算法
 ## autocorrealtion function
 wave, sr = librosa.load('q1.wav',sr=44100)</br>
 x, freq = acf_pitch_estimator(wave,sr, is_median_filter=True, order=13)</br>
